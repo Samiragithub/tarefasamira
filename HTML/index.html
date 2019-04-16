@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Projeto2</title>
+        <title>Projeto2</title><p style="font-size:48px;">Projeto Samira</p>
         <meta charset="utf-8">
+      <style>
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+        input, textarea {
+    font: 1em sans-serif;
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #0d8dc0;
+}
+form div + div {
+    margin-top: 1em;
+}
+
+      </style>
     </head>
     <body>
-        aqui vem o conteudo
+        Tabela Provisoria <h1 style="color:blue;">Incrição a seguir</h1>
         <table frame="hsides" border="1">
             <tr> 
                 <th>Id</th>
@@ -13,9 +37,9 @@
                 <th>Descrição</th>
                 <th>Ação</th>
             </tr>
-            <tr>
+            <tr >
                 <td>9</td>
-                <td>Alice</td>
+                <td >Alice</td>
                 <td>Nove</td>
                 <td>homes</td>
             </tr>
@@ -39,10 +63,10 @@
             </tr>
           </table>
           <hr>
-<form action="Formulario-html" method="POST">
+<form action="Formulario-html" method="POST" id="formSamira" >
     <div>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" />
+        <label id="name2">Nome:</label>
+        <input type="text" id="name1" />
     </div>
     <div>
         <label for="mail">E-mail:</label>
@@ -52,10 +76,6 @@
         <label for="msg">Mensagem:</label>
         <textarea id="msg"></textarea>
     </div>
-    <div class="button">
-        <button type="submit">Enviar sua mensagem:</button>
-    </div>
-</form>
 <select name="estados do Brasil">
     <option value="AC">Acre</opition>
     <option value="AL">Alagoas</option>
@@ -85,6 +105,11 @@
     <option value="SE">Sergipe</option>
     <option value="TO">Tocantins</option>
 </select>
+    <div>
+        <div class="button">
+        <button type="submit">Enviar sua mensagem:</button>
+    </div>
+</form>
     </body>
 </html>
 
